@@ -9,13 +9,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calendar.view.ScheduleController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calendar.view2.ScheduleController">
    <children>
       <VBox prefHeight="486.0" prefWidth="358.0">
          <children>
             <HBox fx:id="HBox" alignment="CENTER" prefHeight="57.0" prefWidth="358.0">
                <children>
-                  <DatePicker fx:id="date" />
+                  <DatePicker fx:id="snidate" />
                   <Button fx:id="btnsave" mnemonicParsing="false" onAction="#saveclcik" text="저장">
                      <HBox.margin>
                         <Insets left="25.0" />
